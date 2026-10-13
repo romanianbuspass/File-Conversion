@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Seismic data files (code + docs only in this repo)
+*.mseed
+*.miniseed
+*.seed
+*.sac
+*.SAC
+*.bin
+*.dat
+
+# Bundled binaries / archives
+*.tar.gz
+*.zip
+*.exe
+
+# Runtime artifacts
+*.log
+cron.out
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
